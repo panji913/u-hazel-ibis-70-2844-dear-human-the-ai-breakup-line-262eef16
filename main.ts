@@ -2,6 +2,8 @@
 //
 // Writes the one breakup line to /output/entry.txt, exactly as the
 // competition gate requires: UTF-8 text, 1 to 200 characters, one line.
+// The line below is 170 characters: machine-voiced, a real ending, and
+// a sharp turn — every replayed run ends the same way.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
